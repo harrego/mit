@@ -6,7 +6,7 @@
 DEFAULT_HOLDER="Harry Stanton"
 YEAR=`date +%Y`
 
-if [ -z $1 ]; then
+if [ -z "$1" ]; then
 	HOLDER="$DEFAULT_HOLDER"
 else
 	HOLDER="$1"
